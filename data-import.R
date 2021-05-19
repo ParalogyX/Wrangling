@@ -9,5 +9,3 @@ fullpath <- file.path(path, filename)
 file.copy(fullpath, "./data/")
 
 file.exists(file.path("./data/", filename))
-
-            
